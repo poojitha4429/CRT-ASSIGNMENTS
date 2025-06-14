@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header, .section {
+      padding: 20px;
+    }
+    header {
+      background: #1db954;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .section {
+      background: #181818;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .section h2 {
+      color: #1db954;
+      margin-bottom: 10px;
+    }
+    .playlist, .podcasts, .trending, .artists {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .card {
+      background: #282828;
+      padding: 15px;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .buttons {
+      margin: 10px 0;
+    }
+    .buttons button {
+      background-color: #1db954;
+      border: none;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 20px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .search {
+      margin: 20px;
+    }
+    .search input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Library</h1>
+  </header>
+
+  <div class="section">
+    <h2>Create your first playlist</h2>
+    <p>It's easy, we'll help you</p>
+    <div class="buttons">
+      <button>Create Playlist</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Find some podcasts to follow</h2>
+    <p>We'll keep you updated on new episodes</p>
+    <div class="buttons">
+      <button>Browse Podcasts</button>
+    </div>
+  </div>
+
+  <div class="search">
+    <input type="text" placeholder="What do you want to search?">
+  </div>
+
+  <div class="section">
+    <div class="buttons">
+      <button>Premium</button>
+      <button>Support</button>
+      <button>Download</button>
+      <button>Install App</button>
+      <button>Signup</button>
+      <button>Login</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Trending Songs</h2>
+    <div class="trending">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Bad Desire">
+        <p><strong>Bad Desire</strong><br>ENHYPEN</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Supreme">
+        <p><strong>Supreme</strong><br>Shubh</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Tu Tu Hai Wahi">
+        <p><strong>Tu Tu Hai Wahi</strong><br>RUUH, JOJ, Jubin, Jonita</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Outlaw">
+        <p><strong>Outlaw</strong><br>Sidhu Moose Wala</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Time Is Money">
+        <p><strong>Time Is Money</strong><br>Parmish, Laddi</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Aashiq Tera">
+        <p><strong>Aashiq Tera</strong><br>Altamash, Sohail</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Industry Baby">
+        <p><strong>Industry Baby</strong><br>Lil Nas X ft. Jack</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Levitating">
+        <p><strong>Levitating</strong><br>Dua Lipa</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Popular Artists</h2>
+    <div class="artists">
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 1"><p>Artist 1</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 2"><p>Artist 2</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 3"><p>Artist 3</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 4"><p>Artist 4</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 5"><p>Artist 5</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 6"><p>Artist 6</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 7"><p>Artist 7</p></div>
+      <div class="card"><img src="https://via.placeholder.com/150" alt="Artist 8"><p>Artist 8</p></div>
+    </div>
+  </div>
+
+</body>
+</html>
